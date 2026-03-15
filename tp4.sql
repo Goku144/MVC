@@ -11,7 +11,7 @@ CREATE TABLE Prof
 
 drop table Prof;
 
-select * from Prof;
+select * from Etudiant;
 CREATE TABLE Etudiant
 (
   id INT PRIMARY KEY AUTO_INCREMENT,
@@ -19,5 +19,7 @@ CREATE TABLE Etudiant
   prenom VARCHAR(50),
   specialiste VARCHAR(50)
 );
+
+drop table Etudiant;
 
 Insert into Etudiant (id,nom,prenom,specialiste) value (1,'t','u','o');
