@@ -19,3 +19,5 @@ CREATE TABLE Etudiant
   prenom VARCHAR(50),
   specialiste VARCHAR(50)
 );
+
+Insert into Etudiant (id,nom,prenom,specialiste) value (1,'t','u','o');

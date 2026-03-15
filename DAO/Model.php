@@ -34,6 +34,9 @@ class Model
       $columns = substr($columns, 0, -1);
       $values = substr($values, 0, -1);
       $query = "INSERT INTO ".get_called_class()." ({$columns}) VALUE ({$values});";
+      $return = self::$pdo->exec($query);
+      $this->id = (int) self::$pdo->lastInsertId();
+      return $return;
     else:
       $str = '';
       foreach($arr as $key => $value):
@@ -49,9 +52,8 @@ class Model
       endforeach;
       $str = substr($str, 0, -1);
       $query = "UPDATE ".get_called_class()." SET {$str} where id = {$id}";
+      return self::$pdo->exec($query);
     endif;
-    print_r($query);
-    return self::$pdo->exec($query);
   }
 
   public function delete()
