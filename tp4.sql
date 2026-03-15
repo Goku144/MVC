@@ -12,6 +12,7 @@ CREATE TABLE Prof
 drop table Prof;
 
 select * from Etudiant;
+
 CREATE TABLE Etudiant
 (
   id INT PRIMARY KEY AUTO_INCREMENT,

@@ -19,7 +19,7 @@
     </tr>
     <tr>
       <td><a href="/web/MVC/Profs/index" style="margin-right: 10px;">&lt;&lt;return</a> </td>
-      <td align="center"><input type="submit" value="submit" name="submit"></td>
+      <td><input type="submit" value="submit" name="submit"></td>
     </tr>
   </table>
 </form>
