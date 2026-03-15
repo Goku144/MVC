@@ -9,13 +9,13 @@
     <?php endif;?>
     <tr>
       <th>nom</th>
-      <td><input type="text" value="<?php echo $data->nom; ?>" name="nom"></td>
+      <td><input type="text" value="<?php echo $data->nom; ?>" name="nom" required></td>
     </tr>
       <th>prenom</th>
-      <td><input type="text" value="<?php echo $data->prenom; ?>" name="prenom"></td>
+      <td><input type="text" value="<?php echo $data->prenom; ?>" name="prenom" required></td>
     <tr>
       <th>specialiste</th>
-      <td><input type="text" value="<?php echo $data->specialiste; ?>" name="specialiste"></td>
+      <td><input type="text" value="<?php echo $data->specialiste; ?>" name="specialiste" required></td>
     </tr>
     <tr>
       <td><a href="/web/MVC/Etudiants/index" style="margin-right: 10px;">&lt;&lt;return</a> </td>

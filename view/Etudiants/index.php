@@ -26,3 +26,6 @@
     <td><a href="/web/MVC/Etudiants/create">create&gt;&gt;</a></td>
   </tr>
 </table>
+<div style="text-align: center;">
+    <a href="/web/MVC/">&lt;&lt;Home</a>
+</div>

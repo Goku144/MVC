@@ -12,13 +12,20 @@
       <td><?php echo $obj->prenom; ?></td>
       <td><?php echo $obj->specialiste; ?></td>
       <td>
-        <a href="Profs/show/<?php echo $obj->id; ?>">show&gt;&gt;</a> 
-        <a href="Profs/edit/<?php echo $obj->id; ?>">edite&gt;&gt;</a> 
-        <a href="Profs/delete/<?php echo $obj->id; ?>">delete&gt;&gt;</a>
+        <a href="/web/MVC/Profs/show/<?php echo $obj->id; ?>">show&gt;&gt;</a> 
+        <a href="/web/MVC/Profs/edit/<?php echo $obj->id; ?>">edite&gt;&gt;</a> 
+        <a href="/web/MVC/Profs/delete/<?php echo $obj->id; ?>">delete&gt;&gt;</a>
       </td>
     </tr>
   <?php endforeach; ?>
   <tr align="center">
-    <a href="/web/MVC/Etudiants/create">create&gt;&gt;</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><a href="/web/MVC/Profs/create">create&gt;&gt;</a></td>
   </tr>
 </table>
+<div style="text-align: center;">
+    <a href="/web/MVC/">&lt;&lt;Home</a>
+</div>

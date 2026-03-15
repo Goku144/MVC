@@ -1,17 +1,17 @@
 <table align="center" border="2px">
   <tr>
     <th>id</th>
-    <td><?php echo $data->id; ?></td>
+    <td><input type="text" value="<?php echo $data->id; ?>" readonly></td>
   </tr>
   <tr>
     <th>nom</th>
-    <td><?php echo $data->nom; ?></td>
+    <td><input type="text" value="<?php echo $data->nom; ?>" name="nom" readonly></td>
   </tr>
     <th>prenom</th>
-    <td><?php echo $data->prenom; ?></td>
+    <td><input type="text" value="<?php echo $data->prenom; ?>" name="prenom" readonly></td>
   <tr>
     <th>specialiste</th>
-    <td><?php echo $data->specialiste; ?></td>
+    <td><input type="text" value="<?php echo $data->specialiste; ?>" name="specialiste" readonly></td>
   </tr>
 </table>
 <div style="text-align: center;">
