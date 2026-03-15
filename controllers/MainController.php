@@ -1,5 +1,5 @@
 <?php
-require_once 'controllers/Request.php';
+require_once 'Request.php';
 class MainController
 {
   private static $class, $controler, $action, $id;

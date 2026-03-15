@@ -13,7 +13,7 @@ abstract class Controller
 
   public function redirect($chemin)
   {
-    header("Location: /web/MVC/".$chemin);
+    header("Location: ".BASE_URL.$chemin);
     exit;
   }
 
